@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Tenses dan TOEIC Explanation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f5f5f5;
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: #333;
+      color: #000000;
+      padding: 2rem;
+      text-align: center;
+      position: relative;
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: -1;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    nav {
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: #000000;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    main {
+      padding: 3rem;
+      max-width: 800px;
+      margin: 3rem auto;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+      animation: fadeIn 1s ease-in-out forwards;
+    }
+
+    main:before {
+      content: "";
+      position: absolute;
+      top: -50px;
+      left: -50px;
+      width: 100%;
+      height: 100%;
+      background-color: #333;
+      z-index: -1;
+      border-radius: 50%;
+      opacity: 0.1;
+    }
+
+    h1,
+    h2 {
+      color: #d3a8a8;
+      font-weight: bold;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #604c4c;
+      font-size: 1.5rem;
+      line-height: 1.5;
+      margin-bottom: 3rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+      padding: 2rem;
+      transition: all 0.3s ease-in-out;
+    }
+
+    li:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transform: translateY(-5px);
+    }
+
+    .highlight {
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    .icon {
+      width: 2rem;
+      height: 2rem;
+      margin-right: 1rem;
+      fill: #333;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+
+    .container img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      animation: slideInLeft 1s ease-in-out forwards;
+    }
+
+    .text {
+      flex: 1;
+      margin-left: 3rem;
+      animation: slideInRight 1s ease-in-out forwards;
+    }
+
+    .text h2 {
+      font-size: 2.5rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    .text p {
+      font-size: 1.5rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideInLeft {
+      0% {
+        opacity: 0;
+        transform: translateX(-100px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes slideInRight {
+      0% {
+        opacity: 0;
+        transform: translateX(100px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Learning Tenses and TOEIC</h1>
+  </header>
+  <nav>
+    <a href="#" class="menu-item">
+      <svg class="icon">
+        <a href="">
+          <use href="#home-icon"></use>
+        </a>
+      </svg>
+      Home
+    </a>
+    <a href="index (2).html" class="menu-item">
+      <svg class="icon">
+        <a href="./index (2).html">
+          <use href="#tenses-icon"></use>
+        </a>
+      </svg>
+      Tenses
+    </a>
+    <a href="index (3).html" class="menu-item">
+      <svg class="icon">
+        <a href="./index (3).html">
+          <use href="#toeic-icon"></use>
+        </a>
+      </svg>
+      TOEIC
+    </a>
+  </nav>
+  <main>
+    <div class="container">
+      <img src="tenses.jpg" alt="Gambar 1">
+      <div class="text">
+        <h2>What is Tenses?</h2>
+        <p>Tenses are grammatical system used to express the time and aspect of an education or event, In English,
+          tenses are crucial because they help clarify when something happens, whether in the past, present, or future.
+          A complex explanation of tenses involves both the time (tense) and the aspect of the verb.</p>
+      </div>
+    </div>
+    <div class="container">
+      <img src="toeic.jpg" alt="Gambar 2">
+      <div class="text">
+        <h2>What is TOEIC?</h2>
+        <p>Toeic (Test of English for International Communication) is a standarized English test oriented towards
+          professionals and companies. The TOEIC is actually two separate tests, one which tests the receptive English
+          skills and one which tests the productive English skills.</p>
+      </div>
+    </div>
+  </main>
+  <svg style="display: none;">
+    <symbol id="home-icon" viewBox="0 0 24 24">
+      <path
+        d="M10,2C6.5,2,2,6.5,2,12s4.5,10,10,10s10-4.5,10-10S17.5,2,12,2z M12,20c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8S16.4,20,12,20z" />
+    </symbol>
+    <symbol id="tenses-icon" viewBox="0 0 24 24">
+      <path d="M12,2C6.5,2,2,6.5,2,12s4.5,10,10,10s10-4.5,10-10S17.5,2,12,2z M12,20c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8S16.4,20,12,20z
+      M12,14c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4S14.2,14,12,14z" />
+    </symbol>
+    <symbol id="toeic-icon" viewBox="0 0 24 24">
+      <path d="M12,2C6.5,2,2,6.5,2,12s4.5,10,10,10s10-4.5,10-10S17.5,2,12,2z M12,20c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8S16.4,20,12,20z
+      M12,14c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4S14.2,14,12,14z" />
+    </symbol>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="footer-subtitle">Creator of innovative solutions</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="footer-copyright">&copy;Website ini dibuat oleh Muhammad Ikhsan Fadillah 2024. <img
+                src="./authors3.jpg" alt="Authors"></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </svg>
+</body>
+
+</html>
